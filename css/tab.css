@@ -1,0 +1,16 @@
+@media screen and (min-width:768px) and ( max-width:1024px) {
+	html{
+		font-size: 13px;
+	}
+}
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ コンテンツ001 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.ctt001 h1{
+	font-size: 5.5rem;
+	font-weight: normal;
+	line-height: 1.2;
+}
+.ctt001 h1 strong{
+	font-size: 9rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ コンテンツ001 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
