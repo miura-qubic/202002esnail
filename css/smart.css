@@ -92,12 +92,17 @@ p + p{
 	font-size: 1.8rem;
 	font-weight: normal;
 	line-height: 1.2;
+	margin-bottom: 1rem;
 }
 .ctt001 h1 strong{
 	font-size: 3rem;
+	color: #02c0a9;
+}
+.ctt001 h1 strong span{
+	font-size: 1.7rem;
 }
 .ctt001 p{
-	font-size: 1.5rem;
+	font-size: 4.8vw;
 	line-height: 1.35;
 	margin: 0.5rem 0 0;
 }
@@ -118,10 +123,14 @@ p + p{
 	margin-top: auto;
 }
 .ctt001_in .item:first-child{
-	width: 51%;
+	width: 60%;
+	margin-bottom: 1rem;
 }
 .ctt001_in .item:last-child{
-	width: 45%;
+	width: 38%;
+}
+.ctt001_in .item:last-child .img{
+	margin-right: -1rem;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ コンテンツ001 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
@@ -183,6 +192,18 @@ p + p{
 }
 .ctt002 .container .img001{
 	margin: 2rem 0;
+}
+.ctt002 .flexbox{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1rem;
+	padding: 0 1rem;
+}
+.ctt002 .flexbox a{
+	width: 47%;
+}
+.ctt002 .flexbox .tel_btn{
+	width: 47%;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ コンテンツ002 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
@@ -379,6 +400,56 @@ p + p{
 	margin-bottom: 0.5rem;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ コンテンツ007 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ コンテンツ008 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.ctt008{
+	background: #fceefd;
+	text-align: center;
+	padding: 2rem 0;
+}
+.ctt008 h2{
+	font-size: 1.8rem;
+	line-height: 1.2;
+	color: #61b9ae;
+}
+.ctt008 h3{
+	font-size: 1.5rem;
+	color: #959595;
+}
+.ctt008 .img_wrap{
+	position: relative;
+}
+.ctt008 .img_wrap .img01{
+	position: absolute;
+	max-width: 18rem;
+	width: 55%;
+	top: 2rem;
+	right: 0.5rem;
+}
+.ctt008 .img_wrap .flexbox{
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.8rem;
+	bottom: 0.3rem;
+	left: 50%;
+	transform: translateX(-50%) translateX(0.3rem);
+}
+.ctt008 .img_wrap .flexbox .img{
+	width: 31%;
+}
+.ctt008 p{
+	font-size: 1.1rem;
+	line-height: 1.4;
+	color: #959595;
+	margin: 1rem 0;
+}
+.ctt008 .img02{
+	width: 100%;
+	margin: 0 auto 0.5rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ コンテンツ008 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ フッター ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 footer{
